@@ -43,7 +43,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav" id="left-nav">
               <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">About</a>
+                <a class="nav-link" aria-current="page" href="#">About</a>
               </li>
             </ul>
             <ul class="navbar-nav mx-auto">
@@ -69,12 +69,13 @@
                     >
                   </li>
                 </ul>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Search</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">News</a>
-                </li>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Search</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">News</a>
               </li>
             </ul>
           </div>
@@ -83,8 +84,42 @@
     </head>
     <main>
       <!-- WIP Warning -->
-      <div id="WIP Warning" class="text-center fs-6 ">
-        ⚠ <span class="font-monospace">NOTE: This site is a work in progress. Some features may be broken or not working as intended.</span>
+      <div id="WIP Warning" class="text-center fs-6">
+        ⚠
+        <span class="font-monospace"
+          >NOTE: This site is a work in progress. Some features may be broken or
+          not working as intended.</span
+        >
+      </div>
+      <!-- Quick link cards -->
+      <div class="d-flex justify-content-center">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img src="assets\images\jpg\artemis-moon.jpg" alt="sample" />
+              <div class="card-body">
+                <a href="https://images.nasa.gov/details/KSC-20220614-PH-JBS01_0332" class="card-link" style="font-size: 11px">
+                  View original image.
+                </a>
+                <h5 class="card-title mt-2">Missions</h5>
+                <div class="justify-content-between">
+                  <a href="#" class="btn btn-primary">Upcoming</a>
+                  <a href="#" class="btn btn-primary">Past</a>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="assets\images\jpg\eugene-cernan.jpg" alt="sample" />
+              <div class="card-body">
+                <a href="#" class="card-link" style="font-size: 11px">
+                  View original image.
+                </a>
+                <h5 class="card-title mt-2">Card Title</h5>
+                <p class="card-text">Card Text</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </body>
